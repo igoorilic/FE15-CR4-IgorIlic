@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heroImage {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.text {
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test {
+    justify-content: center;
+}
+
+.imagefooter {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    margin: 20px 2px 20px 2px;
+}
+
+.search {
+    margin: 0px 20px;
+    width: 400px;
+    height: 45px;
+}
+
+.subscribe {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+.headline {
+    width: 67.5%;
+    margin: 0 auto;
+}
+
+.cardmod {
+    margin: 2% 0.8%;
+}
+
+.test3131 {
+    color: white;
+    margin-left: 5px !important;
+    padding: 5px 10px !important;
+}

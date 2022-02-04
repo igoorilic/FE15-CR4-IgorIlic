@@ -1,0 +1,63 @@
+let tasks = `[
+    {"taskname": "Shopping",
+    "img": "image/shopping.jpg",
+    "description": "Shop weekly for groceries at Billa",
+    "importance": 0,
+    "date": "15.02.2022"
+},
+    {"taskname": "Gym",
+    "img": "../image/gym.jpg",
+    "description": "Going to the gym at Fitone",
+    "importance": 0,
+    "date": "16.02.2022"
+
+},
+    {"taskname": "Meeting",
+    "img": "image/meeting.jpg",
+    "description": "Meeting with friends for lunch",
+    "importance": 0,
+    "date": "13.02.2022"
+
+},
+    {"taskname": "Cooking",
+    "img": "image/cooking.jpg",
+    "description": "Cooking with family",
+    "importance": 0,
+    "date": "12.02.2022"
+
+},
+    {"taskname": "Cinema",
+    "img": "image/cinema.jpg",
+    "description": "Date at the cinema for the new movie",
+    "importance": 0,
+    "date": "16.02.2022"
+},
+    {"taskname": "Car visit",
+    "img": "image/carvisit.jpg",
+    "description": "Visiting my potential future care",
+    "importance": 0,
+    "date": "16.02.2022"
+
+},
+    {"taskname": "Coding",
+    "img": "image/coding.jpg",
+    "description": "Working on my new website",
+    "importance": 0,
+    "date": "17.02.2022"
+
+},
+    {"taskname": "Chelsea gameday",
+    "img": "image/chelsea.jpg",
+    "description": "Watching the best football club in the world CHELSEA",
+    "importance": 0,
+    "date": "18.02.2022"
+
+},
+    {"taskname": "Doctors appointment",
+    "img": "image/doctor.jpg",
+    "description": "Yearly bloodcheck routine",
+    "importance": 0,
+    "date": "19.02.2022"
+
+}
+]`

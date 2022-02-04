@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar beginning -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+            <div class="container-fluid justify-content-between d-flex">
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item align-self-center">
+                            <a class="navbar-brand p-0" href="#">
+                                <img src="image/tasks.png" alt="" width="30" height="24" class="d-inline-block align-text-top"> MyPlanner
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link align-self-center" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <img src="image/bell.png" alt="" width="30" height="24">
+                </div>
+            </div>
+            </div>
+        </nav>
+        <!-- navbar ending  -->
+        <!-- hero image beginning  -->
+        <div class="heroImage img-fluid">
+            <img src="image/heroimage.jpg" class="img-fluid w-100 h-25" alt="">
+            <div class="text bg-dark bg-opacity-50 p-5">
+                <p>Weekly planner</p>
+            </div>
+        </div>
+        <!-- hero image end  -->
+    </header>
+    <main>
+        <!-- headline beginning -->
+        <div class="headline d-flex justify-content-between pt-5 pb-5">
+            <div class="leftside">
+                <h3>Weekly Tasks</h3>
+            </div>
+            <div class="rightside align-self-center">
+                <h5>Sort by priority: <img src="image/sortup.png" alt="" width="40" height="32"></h5>
+            </div>
+        </div>
+        <!-- headline ending  -->
+        <div class="container">
+            <div class="container row test m-auto mb-5" id="result2"></div>
+        </div>
+    </main>
+    <footer>
+        <!-- footer beginning -->
+        <div class="bg-dark text-light text-center align-self-center footersection">
+            <p class="pt-3 pb-3 m-0"><img src="image/facebook.png" alt="" class="imagefooter"> <img src="image/twitter.png" alt="" class="imagefooter"><img src="image/google.png" alt="" class="imagefooter"><img src="image/instagram.png" alt="" class="imagefooter"><img src="image/linkedin.png"
+                    alt="" class="imagefooter"><img src="image/github.png" alt="" class="imagefooter"></p>
+            <div class="d-flex justify-content-center pb-5">
+                <p class="align-self-center m-0">Sign up for our newsletter</p>
+                <input type="text" class="search">
+                <p class="subscribe align-self-center m-0">Subscribe</p>
+            </div>
+            <p class="m-0 pb-2">&copy; Copyright 2022 Igor Ilic</p>
+        </div>
+        <!-- footer end -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="javascript/index.JSON"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
