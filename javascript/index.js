@@ -2,7 +2,7 @@ var mydata = JSON.parse(tasks);
 
 for (let index in mydata) {
     document.getElementById("result2").innerHTML += `<!-- card beginning -->
-        <div class="card col-lg-3 col-md-5 col-sm-12 cardmod shadow-lg mt-0 mb-5">
+        <div class="card col-lg-3 col-md-4 col-sm-10 cardmod shadow-lg mt-0 mb-5">
             <div class="justify-content-between d-flex pt-3 pb-3">
                 <div class="leftside">
                     <a href="#" class="btn btn-info pt-1 pb-1 text-white">Task</a>
@@ -18,12 +18,12 @@ for (let index in mydata) {
                 <p class="card-text text-center">${mydata[index].description}</p>
             </div>
             <div class="d-flex border-top pt-3">
-                <p class="m-0 align-self-center"> <img src="image/important.png" alt="" width="20" height="20" id="importantbutton${index}">Priority level:
+                <p class="m-0 align-self-center"><p class="m-0 align-self-center"><img src="image/important.png" alt="" width="20" height="20" " id="importantbutton${index}"> Priority level: </p>
                     <p class="p-1 rounded m-0 test3131" id="test3${index}">${mydata[index].importance}</p>
                 </p>
             </div>
             <div class="border-bottom pt-2">
-                <p><img src="image/calender.png" alt="" width="20" height="20">Deadline: ${mydata[index].date}</p>
+                <p><img src="image/calender.png" alt="" width="20" height="20"> Deadline: ${mydata[index].date}</p>
             </div>
             <div class="text-end pt-3">
                 <p class="btn btn-danger"><img src="image/trash.png" alt="" width="20" height="20">Delete</p>
@@ -46,6 +46,7 @@ for (let index in mydata) {
             buttontest.style.backgroundColor = "yellow";
         } else if (buttontest.innerHTML <= 5) {
             buttontest.style.backgroundColor = "red";
+
         }
     })
 }
