@@ -6,7 +6,7 @@ let tasks = `[
     "date": "15.02.2022"
 },
     {"taskname": "Gym",
-    "img": "../image/gym.jpg",
+    "img": "image/gym.jpg",
     "description": "Going to the gym at Fitone",
     "importance": 0,
     "date": "16.02.2022"
