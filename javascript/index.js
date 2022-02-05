@@ -2,7 +2,7 @@ var mydata = JSON.parse(tasks);
 
 for (let index in mydata) {
     document.getElementById("result2").innerHTML += `<!-- card beginning -->
-        <div class="card col-lg-3 col-md-4 col-sm-10 cardmod shadow-lg mt-0 mb-5">
+        <div class="card col-lg-3 col-md-5 col-sm-10 cardmod shadow-lg mt-0 mb-5">
             <div class="justify-content-between d-flex pt-3 pb-3">
                 <div class="leftside">
                     <a href="#" class="btn btn-info pt-1 pb-1 text-white">Task</a>
